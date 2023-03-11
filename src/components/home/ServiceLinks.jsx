@@ -39,54 +39,54 @@ export default function ServiceLinks() {
             <div id="almagre__services-slides">
             <div className="almagre__slide active" data-slide="TheKindredSuite">
                     <div className="almagre__slide-image">
-                        <img src="/images/almagre-colorado-wedding-venue-098.jpg" alt="" />
+                        <img src="/src/assets/images/almagre-colorado-wedding-venue-098.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smaller">
-                        <img src="/images/almagre-colorado-wedding-venue-099.jpg" alt="" />
+                        <img src="/src/assets/images/almagre-colorado-wedding-venue-099.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smallest">
-                        <img src="/images/almagre-colorado-wedding-venue-100.jpg" alt="" />
+                        <img src="/src/assets/images/almagre-colorado-wedding-venue-100.jpg" alt="" />
                     </div>
                 </div>
                 <div className="almagre__slide" data-slide="Reception">
                     <div className="almagre__slide-image">
-                        <img src="/images/finished-80.jpg" alt="" />
+                        <img src="/src/assets/images/finished-80.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smaller">
-                        <img src="/images/finished-89.jpg" alt="" />
+                        <img src="/src/assets/images/finished-89.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smallest">
-                        <img src="/images/finished-144.jpg" alt="" />
+                        <img src="/src/assets/images/finished-144.jpg" alt="" />
                     </div>
                 </div>
                 <div className="almagre__slide" data-slide="TheBar">
                     <div className="almagre__slide-image">
-                        <img src="/images/almagre-colorado-bar-001.jpg" alt="" />
+                        <img src="/src/assets/images/almagre-colorado-bar-001.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smaller">
-                        <img src="/images/almagre-colorado-bar-002.jpg" alt="" />
+                        <img src="/src/assets/images/almagre-colorado-bar-002.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smallest">
-                        <img src="/images/almagre-colorado-bar-003.jpg" alt="" />
+                        <img src="/src/assets/images/almagre-colorado-bar-003.jpg" alt="" />
                     </div>
                 </div>
                 <div className="almagre__slide" data-slide="KindredRoom">
                     <div className="almagre__slide-image">
-                        <img src="/images/finished-108.jpg" alt="" />
+                        <img src="/src/assets/images/finished-108.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smaller">
-                        <img src="/images/finished-127.jpg" alt="" />
+                        <img src="/src/assets/images/finished-127.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smallest">
-                        <img src="/images/finished-141.jpg" alt="" />
+                        <img src="/src/assets/images/finished-141.jpg" alt="" />
                     </div>
                 </div>
                 <div className="almagre__slide" data-slide="Courtyard">
                     <div className="almagre__slide-image">
-                        <img src="/images/finished-49.jpg" alt="" />
+                        <img src="/src/assets/images/finished-49.jpg" alt="" />
                     </div>
                     <div className="almagre__slide-image smaller">
-                        <img src="/images/finished-63.jpg" alt="" />
+                        <img src="/src/assets/images/finished-63.jpg" alt="" />
                     </div>
                 </div>
             </div>
