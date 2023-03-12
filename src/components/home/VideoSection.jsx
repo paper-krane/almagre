@@ -3,6 +3,12 @@ import { gsap } from 'gsap';
 import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 
+// Images & Video
+import image1 from '../../assets/images/video-banner-1.jpg';
+import image2 from '../../assets/images/video-banner-2.jpg';
+import video1 from '../../assets/videos/loopable-promo.mp4';
+import video2 from '../../assets/videos/full-promo.mp4';
+
 // Styles
 import '../../assets/scss/VideoBanner.scss';
 
@@ -169,13 +175,13 @@ export default function VideoSection() {
                 <div id="almagre__video-banner-media">
                     <div id="almagre__floating-image-container">
                         <div id="almagre__floating-image">
-                            <img src="/src/assets/images/video-banner-1.jpg" alt="" />
+                            <img src={image1} alt="" />
                         </div>
                     </div>
                     <a id="almagre__video-banner" tabIndex="0" aria-controls="almagre__video-modal">
                         <div className="almagre__video">
-                            <video muted autoPlay loop playsInline poster="/src/assets/images/video-banner-2.jpg">
-                                <source src="/src/assets/videos/loopable-promo.mp4" type="video/mp4" />
+                            <video muted autoPlay loop playsInline poster={image2}>
+                                <source src={video1} type="video/mp4" />
                             </video>
                         </div>
                         <div className="almagre__video-modal-toggle-container">
@@ -321,7 +327,7 @@ export default function VideoSection() {
                         <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
                     </div>
                     <video id="almagre__promo" controls loop playsInline>
-                        <source src="/src/assets/videos/full-promo.mp4" type="video/mp4"/>
+                        <source src={video2} type="video/mp4"/>
                     </video>
                     <a tabIndex="0" aria-controls="almagre__video-modal" id="almagre__video-modal-close">
                         <span></span>

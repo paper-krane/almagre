@@ -4,6 +4,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from 'react';
 gsap.registerPlugin(ScrollTrigger);
 
+// Images
+import logo from '../../assets/images/logo.png'
+import image1 from '../../assets/images/hero-2.jpg';
+import image2 from '../../assets/images/hero-1.jpg';
+import image3 from '../../assets/images/hero-3.jpg';
+import image4 from '../../assets/images/hero-4.jpg';
+
 // Styles
 import '../../assets/scss/HeroBanner.scss';
 
@@ -39,7 +46,7 @@ export default function HeroBanner() {
             <div id="almagre__hero-content">
                 <div className="almagre__container">
                     <div id="almagre__hero-logo">
-                        <img src="/src/assets/images/logo.png" alt="Almagre logo" />
+                        <img src={logo} alt="Almagre logo" />
                     </div>
                     <h3 className="almagre__heading-accent">Almagre Venue And Bar</h3>
                     <h1>Creating <em>Unforgettable</em> <br />Weddings, Special Events <br /><em>and</em> Memories...</h1>
@@ -48,42 +55,42 @@ export default function HeroBanner() {
             <div id="almagre__gallery" ref={galleryEl}>
                 <div className="almagre__gallery-item">
                     <figure>
-                        <img src="/src/assets/images/hero-2.jpg" alt="Placeholder 1" />
+                        <img src={image1} alt="Placeholder 1" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item large">
                     <figure>
-                        <img src="/src/assets/images/hero-1.jpg" alt="Placeholder 2" />
+                        <img src={image2} alt="Placeholder 2" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item">
                     <figure>
-                        <img src="/src/assets/images/hero-3.jpg" alt="Placeholder 3" />
+                        <img src={image3} alt="Placeholder 3" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item">
                     <figure>
-                        <img src="/src/assets/images/hero-4.jpg" alt="Placeholder 4" />
+                        <img src={image4} alt="Placeholder 4" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item">
                     <figure>
-                        <img src="/src/assets/images/hero-2.jpg" alt="Placeholder 1" />
+                        <img src={image1} alt="Placeholder 1" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item large">
                     <figure>
-                        <img src="/src/assets/images/hero-1.jpg" alt="Placeholder 2" />
+                        <img src={image2} alt="Placeholder 2" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item">
                     <figure>
-                        <img src="/src/assets/images/hero-3.jpg" alt="Placeholder 3" />
+                        <img src={image3} alt="Placeholder 3" />
                     </figure>
                 </div>
                 <div className="almagre__gallery-item">
                     <figure>
-                        <img src="/src/assets/images/hero-4.jpg" alt="Placeholder 4" />
+                        <img src={image4} alt="Placeholder 4" />
                     </figure>
                 </div>
             </div>
