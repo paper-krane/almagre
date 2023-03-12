@@ -138,6 +138,20 @@ export default function VideoSection() {
                                 opacity: 0
                             });
                         }
+
+                        video.onloadedmetadata = (event) => {
+                            gsap.to(video, {
+                                opacity: 1,
+                                duration: .2,
+                                onComplete: () => {
+                                    video.play();
+                                }
+                            });
+
+                            gsap.to(preloader, {
+                                opacity: 0
+                            });
+                        }
                     }               
                 }
             })
