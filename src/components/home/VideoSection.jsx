@@ -110,49 +110,51 @@ export default function VideoSection() {
                 ease: "power4.out",
                 onStart:() => {
                     const video = document.querySelector('#almagre__promo');
-                    const preloader = document.querySelector('#almagre__preloader');
 
-                    if (video.readyState >= video.HAVE_FUTURE_DATA) {
-                        gsap.to(video, {
-                            opacity: 1,
-                            duration: .2,
-                            onComplete: () => {
-                                video.play();
-                            }
-                        });
+                    video.play();
+                    // const preloader = document.querySelector('#almagre__preloader');
 
-                        gsap.to(preloader, {
-                            opacity: 0
-                        });
-                    } else {
-                        video.oncanplay = (event) => {
-                            gsap.to(video, {
-                                opacity: 1,
-                                duration: .2,
-                                onComplete: () => {
-                                    video.play();
-                                }
-                            });
+                    // if (video.readyState >= video.HAVE_FUTURE_DATA) {
+                    //     gsap.to(video, {
+                    //         opacity: 1,
+                    //         duration: .2,
+                    //         onComplete: () => {
+                    //             video.play();
+                    //         }
+                    //     });
 
-                            gsap.to(preloader, {
-                                opacity: 0
-                            });
-                        }
+                    //     gsap.to(preloader, {
+                    //         opacity: 0
+                    //     });
+                    // } else {
+                    //     video.oncanplay = (event) => {
+                    //         gsap.to(video, {
+                    //             opacity: 1,
+                    //             duration: .2,
+                    //             onComplete: () => {
+                    //                 video.play();
+                    //             }
+                    //         });
 
-                        video.onloadedmetadata = (event) => {
-                            gsap.to(video, {
-                                opacity: 1,
-                                duration: .2,
-                                onComplete: () => {
-                                    video.play();
-                                }
-                            });
+                    //         gsap.to(preloader, {
+                    //             opacity: 0
+                    //         });
+                    //     }
 
-                            gsap.to(preloader, {
-                                opacity: 0
-                            });
-                        }
-                    }               
+                    //     video.onloadedmetadata = (event) => {
+                    //         gsap.to(video, {
+                    //             opacity: 1,
+                    //             duration: .2,
+                    //             onComplete: () => {
+                    //                 video.play();
+                    //             }
+                    //         });
+
+                    //         gsap.to(preloader, {
+                    //             opacity: 0
+                    //         });
+                    //     }
+                    // }               
                 }
             })
         });
